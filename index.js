@@ -73,8 +73,10 @@
     const originalInterval = setInterval(renderSquares, 2500)
 
     window.addEventListener('resize', () => {
-        canvas.style.height = height;
-        canvas.style.width = width;
+        height = window.innerHeight;
+        width = window.innerWidth;
+        console.log(height, width)
+        renderSquares();
     })
 
 })()
