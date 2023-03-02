@@ -26,40 +26,15 @@
 
 ### Description:
 
+“One day, I’m gonna open a restaurant, and everything on the menu is gonna be special. So, when somebody comes in and says, ‘Hey, Kelso, what’s special on the menu?’ I can say ‘Everything.'” — Kelso, That 70s show.
 
-This is a personal passion project I started to challenge myself to learn how to connect to an API.  The latest version demonstrates all of the previous PLUS: 
+Whether you love Kelso, the 70s, or just want something special, Groovy blocks was a good place to land.  I made it because I love making things that are fun, special, and that look good.  It was fun for me to introduce elements of the 70s in homeage to a time that was known for it's unique designs, colors and fonts.  The project itself is special because I got to practice the Canvas API, something I have long been wanting to do.  And as far as looking good, well... see for yourself.
 
+### This project demonstrates
 
-🆕 Tracking multiple stateful components and multiple states within the same component, using .useState() hook.
+🆕 Use of Canvas API
 
-🆕 Passing state from child -> parent and parent -> child
-
-🆕 use useEffect() hook to update effects 
-
-🆕 move from a purely Vanilla JavaScript app to a React App
-
-🆕 use of ternary operators for conditional rendering of elements
-
-🆕 fancy modal :smile: :smile: :smile: 
-
-🆕 use Style Components
-
-🆕 spread and rest operators 
-
-🆕 automated scrolling effect
-
-
-The original v1.0 was built on pure Vanilla JavaScript and demonstrated the following:
-
-- [x] Use of vanilla JavaScript to connect to an API.
-- [x] ```JSON.parse().```
-- [x] Iterating through a JS object.
-- [x] Use of ```Math.floor()``` and ```Math.random()``` to generate a random number between 1 and 10.
-- [x] Use of ```querySelector()``` and ```querySelectorAll()```.
-- [x] Use of template literals `` ` ``  and placeholders `&{}`.
-
-<br/>
-<br/>
+🆕 use of basic JavaScript principles like loops and conditionals to create a randomized, regenerating pattern.
 
 ---
 
