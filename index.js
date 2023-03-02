@@ -70,6 +70,11 @@
     // }
 
     // setTimer()
-    setInterval(renderSquares, 2500)
+    const originalInterval = setInterval(renderSquares, 2500)
+
+    window.addEventListener('resize', () => {
+        canvas.style.height = height;
+        canvas.style.width = width;
+    })
 
 })()
