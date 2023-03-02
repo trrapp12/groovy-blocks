@@ -1,8 +1,7 @@
-# Nasa-Photo-V2
+# Groovy Blocks
 
 ##### Contributors: Trevor Rapp
 
-https://user-images.githubusercontent.com/11747875/220780742-72830504-a9ce-48e9-9ff5-cc54fcd88a2f.mp4
 
 <br>
 
