@@ -7,9 +7,6 @@ https://user-images.githubusercontent.com/11747875/222486766-c540a42b-b98d-4825-
 [![View Project](https://user-images.githubusercontent.com/11747875/141830030-bb37c7b2-7c74-43fa-b705-779189b9f380.png)](https://trrapp12.github.io/groovy-blocks/)
 
 <br>
-
-##### Credits: project inspired by [Creative Coding: Making Visuals with JavaScript](https://www.domestika.org/en/courses/2729-creative-coding-making-visuals-with-javascript) by [Bruno Imbrizi](https://www.domestika.org/en/bruno_imbrizi)
-
 <br>
 
 ---
@@ -39,6 +36,11 @@ Whether you love Kelso, the 70s, or just want something special, Groovy blocks w
 
 ---
 
+### Credits:
+
+Contributors: Trevor Rapp
+
+Project inspired by [Creative Coding: Making Visuals with JavaScript](https://www.domestika.org/en/courses/2729-creative-coding-making-visuals-with-javascript) by [Bruno Imbrizi](https://www.domestika.org/en/bruno_imbrizi)
 
 ### More Information:
 
