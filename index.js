@@ -59,24 +59,19 @@
 
     // atempt to create variable timing function
 
-    // function setTimer() {
-    //     const maxDelay = 2500;
-    //     const delay = Math.floor(Math.random() * 2 + 1) * maxDelay;
-    //     console.log(delay)
-    //     setInterval(() => {
-    //         renderSquares()
-    //         setTimer()
-    //     }, delay)
-    // }
+    function setTimer() {
+        const maxDelay = 2500;
+        const delay = (Math.random() * 2) * maxDelay;
+        console.log(delay)
+        setInterval(() => {
+            for (let i = 0; i < 99999; i++) {
+                window.clearInterval(i)
+            }
+            renderSquares()
+            setTimer()
+        }, delay)
+    }
 
-    // setTimer()
-    const originalInterval = setInterval(renderSquares, 2500)
-
-    window.addEventListener('resize', () => {
-        height = window.innerHeight;
-        width = window.innerWidth;
-        console.log(height, width)
-        renderSquares();
-    })
+    setTimer()
 
 })()
