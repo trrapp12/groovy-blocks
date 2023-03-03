@@ -34,6 +34,14 @@ Whether you love Kelso, the 70s, or just want something special, Groovy blocks w
 
 🆕 use of basic JavaScript principles like loops and conditionals to create a randomized, regenerating pattern.
 
+### Challenges I overcame
+
+This was the first time I used Canvas.  So it was a completely new experience.  The most obvious obstacle is learning the syntax.  After that there was a bit of conceptualizing how to create a grid of boxes that needed to occur through a nested for loop.  
+
+But by far the most challenging was creating a timing function that would work dynamically so the interval on setInterval would be different everytime, but only with a range of 0 - 5 seconds.  My first attempt to accomplish this I created a delay with `(Math.floor(Math.random() * 2) + 1 * maxDelay` where `maxDelay = 2500`.  This was unsucessful 1) because the `+1` served no purpose, and 2) because the `Math.floor()` created a situation where it would only return 1 or 5 since the 2 was always getting rounded down to either 0 or 1.  The second issue was that the timing function would start with a random interval, but eventually it would gradually speed up the 
+
+My own personal contributions included creating
+
 ---
 
 ### Credits:
