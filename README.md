@@ -78,8 +78,9 @@ My thought was to create a delay with `(Math.floor(Math.random() * 2) + 1 * maxD
 
 My own personal contributions included 
 
-- [] creating the random, ranged timing interval
-- [] creating a functionality to randomly choose a color scheme for the blocks; and the additionaly decoration on the pages.
+- [ ] creating the random, ranged timing interval
+- [ ] creating an animation effect that randomly chooses a color scheme for the blocks
+- [ ] fixing the functionality so it would rerender on window resizeand the additionaly decoration on the pages.
 
 ---
 
