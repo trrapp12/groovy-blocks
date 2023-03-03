@@ -57,7 +57,7 @@ function groovy() {
     // atempt to create variable timing function
 
     function setTimer() {
-        const maxDelay = 2500;
+        const maxDelay = 1500;
         const delay = (Math.random() * 2) * maxDelay;
         console.log(delay)
         setInterval(() => {
