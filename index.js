@@ -1,16 +1,10 @@
-(() => {
-
-    console.log("starting");
-
+function groovy() {
     const heightContainer = document.getElementById('height');
     const widthContainer = document.getElementById('width');
     let canvas = document.getElementById('canvas');
     let context = canvas.getContext('2d');
 
-    let height = window.innerHeight;
-    let width = window.innerWidth;
-
-    context.fillStyle = 'blue'
+ 
 
     /* Color Theme Swatches in RGBA */
     let red = 'rgba(242, 5, 68, 1)';
@@ -21,8 +15,8 @@
 
     let colorArr = [red, darkBlue, mediumBlue, lightBlue, orange]
 
-    height = window.innerHeight;
-    width = window.innerWidth;
+    let height = window.innerHeight; 
+    let width = window.innerWidth;
     context.canvas.width = width;
     context.canvas.height = height;
     // let squareWidth = width / 5;
@@ -34,6 +28,9 @@
 
 
     function renderSquares() {
+        console.log('render fired')
+        height = window.innerHeight;
+        width = window.innerWidth;
         for (let i = 0; i < Math.floor(width / (squareWidth + gap) ); i++) {
             for (let j = 0; j < Math.floor(height / (squareHeight + gap)); j++) {
                 // console.log(width, height)
@@ -73,5 +70,8 @@
     }
 
     setTimer()
+}
 
-})()
+window.addEventListener('DOMContentLoaded', groovy)
+window.addEventListener('resize', groovy);
+
