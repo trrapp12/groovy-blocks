@@ -55,9 +55,31 @@ But by far the most challenging was creating a timing function that would work d
     
 ```
     
-My thought was to create a delay with `(Math.floor(Math.random() * 2) + 1 * maxDelay` where `maxDelay = 2500`.  This was unsucessful 1) because the `+1` served no purpose, and 2) because the `Math.floor()` created a situation where it would only return 1 or 5 since the 2 was always getting rounded down to either 0 or 1.  The second issue was that the timing function would start with a random interval, but eventually it would gradually speed up more and more until it became sickenly fast.  I thought at first it was because timesing something by a fraction over and over again will ultimately make it smaller and smaller.  However, when I console.log'ed the issue the interval times were fine.  Then I realized what was happening was every time the function fired it created a separate setInterval instance.  So I had to figure out how to clear them.  I could just add a `clearInterval()` since they were named.  So I discovered I could loop over the window object to find all the intervals and clear them all before setting a new one. This answer worked swimmingly.
+My thought was to create a delay with `(Math.floor(Math.random() * 2) + 1 * maxDelay` where `maxDelay = 2500`.  This was unsucessful 1) because the `+1` served no purpose, and 2) because the `Math.floor()` created a situation where it would only return 1 or 5 since the 2 was always getting rounded down to either 0 or 1.  The second issue was that the timing function would start with a random interval, but eventually it would gradually speed up more and more until it became sickenly fast.  I thought at first it was because timesing something by a fraction over and over again will ultimately make it smaller and smaller.  However, when I console.log'ed the issue the interval times were fine.  Then I realized what was happening was every time the function fired it created a separate setInterval instance.  So I had to figure out how to clear them.  I could just add a `clearInterval()` since they were named.  So I discovered I could loop over the window object to find all the intervals and clear them all before setting a new one. This answer worked swimmingly.  The final timer function was this: 
 
-My own personal contributions included creating the random, ranged timing interval; creating a functionality to randomly choose a color scheme for the blocks; and the additionaly decoration on the pages.
+```javascript
+
+    function setTimer() {
+        const maxDelay = 2500;
+        const delay = (Math.random() * 2) * maxDelay;
+        console.log(delay)
+        setInterval(() => {
+            for (let i = 0; i < 99999; i++) {
+                window.clearInterval(i)
+            }
+            renderSquares()
+            setTimer()
+        }, delay)
+    }
+
+    setTimer()
+
+```
+
+My own personal contributions included 
+
+- [] creating the random, ranged timing interval
+- [] creating a functionality to randomly choose a color scheme for the blocks; and the additionaly decoration on the pages.
 
 ---
 
