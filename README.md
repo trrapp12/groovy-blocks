@@ -40,10 +40,11 @@ This was the first time I used Canvas.  So it was a completely new experience.  
 
 But by far the most challenging was creating a timing function that would work dynamically so the interval on setInterval would be different everytime, but only with a range of 0 - 5 seconds.  My first attempt to accomplish this I created the following: 
 
-```  function setTimer() {
+```javascript  
+
+    function setTimer() {
          const maxDelay = 2500;
          const delay = Math.floor(Math.random() * 2 + 1) * maxDelay;
-         console.log(delay)
          setInterval(() => {
              renderSquares()
              setTimer()
@@ -54,9 +55,9 @@ But by far the most challenging was creating a timing function that would work d
     
 ```
     
-    a delay with `(Math.floor(Math.random() * 2) + 1 * maxDelay` where `maxDelay = 2500`.  This was unsucessful 1) because the `+1` served no purpose, and 2) because the `Math.floor()` created a situation where it would only return 1 or 5 since the 2 was always getting rounded down to either 0 or 1.  The second issue was that the timing function would start with a random interval, but eventually it would gradually speed up the 
+My thought was to create a delay with `(Math.floor(Math.random() * 2) + 1 * maxDelay` where `maxDelay = 2500`.  This was unsucessful 1) because the `+1` served no purpose, and 2) because the `Math.floor()` created a situation where it would only return 1 or 5 since the 2 was always getting rounded down to either 0 or 1.  The second issue was that the timing function would start with a random interval, but eventually it would gradually speed up more and more until it became sickenly fast.  I thought at first it was because timesing something by a fraction over and over again will ultimately make it smaller and smaller.  However, when I console.log'ed the issue the interval times were fine.  Then I realized what was happening was every time the function fired it created a separate setInterval instance.  So I had to figure out how to clear them.  I could just add a `clearInterval()` since they were named.  So I discovered I could loop over the window object to find all the intervals and clear them all before setting a new one. This answer worked swimmingly.
 
-My own personal contributions included creating
+My own personal contributions included creating the random, ranged timing interval; creating a functionality to randomly choose a color scheme for the blocks; and the additionaly decoration on the pages.
 
 ---
 
