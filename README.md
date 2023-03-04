@@ -1,4 +1,4 @@
-# Groovy Blocks
+# GROOVY BLOCKS
 
 https://user-images.githubusercontent.com/11747875/222486766-c540a42b-b98d-4825-a53a-0508b19b3f8c.mp4
 
@@ -20,7 +20,7 @@ https://user-images.githubusercontent.com/11747875/222486766-c540a42b-b98d-4825-
 
 ---
 
-### Description:
+### DESCRIPTION:
 
 > “One day, I’m gonna open a restaurant, and everything on the menu is gonna be special. So, when somebody comes in and says, ‘Hey, Kelso, what’s special on the menu?’ > I can say ‘Everything.'” 
 >
@@ -30,7 +30,7 @@ Whether you love Kelso, the 70s, or just want something special, Groovy blocks w
 
 ---
 
-### This project demonstrates
+### THIS PROJECT DEMONSTRATES...
 
 🆕 Use of Canvas API
 
@@ -38,7 +38,7 @@ Whether you love Kelso, the 70s, or just want something special, Groovy blocks w
 
 ---
 
-### Challenges I overcame
+### CHALLENGES I OVERCAME...
 
 This was the first time I used Canvas.  So it was a completely new experience.  The most obvious obstacle is learning the syntax.  After that there was a bit of conceptualizing how to create a grid of boxes that needed to occur through a nested for loop.  
 
@@ -80,7 +80,9 @@ My thought was to create a delay with `(Math.floor(Math.random() * 2) + 1 * maxD
 
 ```
 
-My own personal contributions included 
+---
+
+### MY OWN PERSONAL CONTRIBUTIONS INCLUDED 
 
 - [ ] creating the random, ranged timing interval
 - [ ] creating an animation effect that randomly chooses a color scheme for the blocks
