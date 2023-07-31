@@ -22,7 +22,7 @@ https://user-images.githubusercontent.com/11747875/222486766-c540a42b-b98d-4825-
 
 ### DESCRIPTION:
 
-> “One day, I’m gonna open a restaurant, and everything on the menu is gonna be special. So, when somebody comes in and says, ‘Hey, Kelso, what’s special on the menu?’ > I can say ‘Everything.'” 
+> “One day, I’m gonna open a restaurant, and everything on the menu is gonna be special. So, when somebody comes in and says, ‘Hey, Kelso, what’s special on the menu?’ I can say ‘Everything.'” 
 >
 > — Kelso, That 70s show.
 
@@ -32,7 +32,7 @@ Whether you love Kelso, the 70s, or just want something special, Groovy blocks w
 
 ### THIS PROJECT DEMONSTRATES...
 
-🆕 Use of Canvas API
+🆕 Use of Canvas API to draw squares
 
 🆕 use of basic JavaScript principles like loops and conditionals to create a randomized, regenerating pattern.
 
@@ -84,9 +84,9 @@ My thought was to create a delay with `(Math.floor(Math.random() * 2) + 1 * maxD
 
 ### MY OWN PERSONAL CONTRIBUTIONS INCLUDED 
 
-- [ ] creating the random, ranged timing interval
-- [ ] creating an animation effect that randomly chooses a color scheme for the blocks
-- [ ] fixing the functionality so it would rerender on window resizeand the additionaly decoration on the pages.
+- [X] creating the random, ranged timing interval
+- [X] creating an animation effect that randomly chooses a color scheme for the blocks
+- [X] fixing the functionality so it would rerender on window resizeand the additionaly decoration on the pages.
 
 ---
 
