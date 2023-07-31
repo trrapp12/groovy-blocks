@@ -97,9 +97,7 @@ My thought was to create a delay with `(Math.floor(Math.random() * 2) + 1 * maxD
 
 ---
 
-### :
-
-Contributors: Trevor Rapp
+### ATTRIBUTIONS
 
 Project inspired by [Creative Coding: Making Visuals with JavaScript](https://www.domestika.org/en/courses/2729-creative-coding-making-visuals-with-javascript) by [Bruno Imbrizi](https://www.domestika.org/en/bruno_imbrizi)
 
