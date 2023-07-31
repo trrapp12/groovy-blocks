@@ -1,5 +1,7 @@
 # GROOVY BLOCKS
 
+### CONTRIBUTORS: Trevor Rapp, Bruno Imbrizi
+
 https://user-images.githubusercontent.com/11747875/222486766-c540a42b-b98d-4825-a53a-0508b19b3f8c.mp4
 
 <br>
@@ -15,7 +17,6 @@ https://user-images.githubusercontent.com/11747875/222486766-c540a42b-b98d-4825-
 <img align="left" alt="CSS3" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/css/css.png" />
 <img align="left" alt="JavaScript" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png" />
 <br>
-
 <br/>
 
 ---
@@ -27,6 +28,12 @@ https://user-images.githubusercontent.com/11747875/222486766-c540a42b-b98d-4825-
 > — Kelso, That 70s show.
 
 Whether you love Kelso, the 70s, or just want something special, Groovy blocks was a good place to land.  I made it because I love making things that are fun, special, and that look good.  It was fun for me to introduce elements of the 70s in homeage to a time that was known for it's unique designs, colors and fonts.  The project itself is special because I got to practice the Canvas API, something I have long been wanting to do.  And as far as looking good, well... see for yourself.
+
+---
+
+### QUICKSTART GUIDE: 
+
+To use the app simply click on the ```View Project``` button or visit <a href="https://trrapp12.github.io/groovy-blocks/">https://trrapp12.github.io/groovy-blocks/</a>. 
 
 ---
 
@@ -90,7 +97,7 @@ My thought was to create a delay with `(Math.floor(Math.random() * 2) + 1 * maxD
 
 ---
 
-### CREDITS:
+### :
 
 Contributors: Trevor Rapp
 
@@ -100,7 +107,7 @@ Project inspired by [Creative Coding: Making Visuals with JavaScript](https://ww
 
 ### YOU CAN FIND ME AT:
 
-\**For more information see my [LinkedIn](https://www.linkedin.com/in/trevor-rapp-042a1037), or return to my [Github](https://github.com/trrapp12)*
+*For more information see my [LinkedIn](https://www.linkedin.com/in/trevor-rapp-042a1037), or return to my [Github](https://github.com/trrapp12)*
 
 
 
