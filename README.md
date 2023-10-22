@@ -1,6 +1,6 @@
 # GROOVY BLOCK
 
-#### CONTRIBUTORS: Trevor Rapp, Bruno Imbrizi
+#### CONTRIBUTORS: Trevor Rapp, Bruno Imbrizi. This was an online tutorial lead by [Bruno Imbrizi](https://www.domestika.org/en/bruno_imbrizi).
 
 https://user-images.githubusercontent.com/11747875/222486766-c540a42b-b98d-4825-a53a-0508b19b3f8c.mp4
 
