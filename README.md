@@ -24,7 +24,7 @@ https://user-images.githubusercontent.com/11747875/222486766-c540a42b-b98d-4825-
 
 ---
 
-### DESCRIPTION:
+### DESCRIPTION
 
 > “One day, I’m gonna open a restaurant, and everything on the menu is gonna be special. So, when somebody comes in and says, ‘Hey, Kelso, what’s special on the menu?’ I can say ‘Everything.'” 
 >
@@ -34,21 +34,21 @@ Whether you love Kelso, the 70s, or just want something special, Groovy blocks w
 
 ---
 
-### QUICKSTART GUIDE: 
+### QUICKSTART GUIDE
 
 To use the app simply click on the ```View Project``` button or visit <a href="https://trrapp12.github.io/groovy-blocks/">https://trrapp12.github.io/groovy-blocks/</a>. 
 
 ---
 
-### THIS PROJECT DEMONSTRATES...
+### THIS PROJECT DEMONSTRATES:
 
-- [X] Use of Canvas API to draw squares
+- [X] Use of Canvas API to draw squares.
       
 - [X] use of basic JavaScript principles like loops and conditionals to create a randomized, regenerating pattern.
 
 ---
 
-### CHALLENGES I OVERCAME...
+### CHALLENGES I OVERCAME
 
 This was the first time I used Canvas.  So it was a completely new experience.  The most obvious obstacle is learning the syntax.  After that there was a bit of conceptualizing how to create a grid of boxes that needed to occur through a nested for loop.  
 
@@ -92,10 +92,10 @@ My thought was to create a delay with `(Math.floor(Math.random() * 2) + 1 * maxD
 
 ---
 
-### MY OWN PERSONAL CONTRIBUTIONS INCLUDED 
+### MY OWN PERSONAL CONTRIBUTIONS INCLUDED
 
-- [X] creating the random, ranged timing interval
-- [X] creating an animation effect that randomly chooses a color scheme for the blocks
+- [X] creating the random, ranged timing interval.
+- [X] creating an animation effect that randomly chooses a color scheme for the blocks.
 - [X] fixing the functionality so it would rerender on window resizeand the additionaly decoration on the pages.
 
 ---
