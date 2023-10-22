@@ -32,11 +32,15 @@ https://user-images.githubusercontent.com/11747875/222486766-c540a42b-b98d-4825-
 
 Whether you love Kelso, the 70s, or just want something special, Groovy blocks was a good place to land.  I made it because I love making things that are fun, special, and that look good.  It was fun for me to introduce elements of the 70s in homeage to a time that was known for it's unique designs, colors and fonts.  The project itself is special because I got to practice the Canvas API, something I have long been wanting to do.  And as far as looking good, well... see for yourself.
 
+<br/>
+
 ---
 
 ### QUICKSTART GUIDE
 
 To use the app simply click on the ```View Project``` button or visit <a href="https://trrapp12.github.io/groovy-blocks/">https://trrapp12.github.io/groovy-blocks/</a>. 
+
+<br/>
 
 ---
 
@@ -45,6 +49,8 @@ To use the app simply click on the ```View Project``` button or visit <a href="h
 - [X] Use of Canvas API to draw squares.
       
 - [X] use of basic JavaScript principles like loops and conditionals to create a randomized, regenerating pattern.
+
+<br/>
 
 ---
 
@@ -90,6 +96,8 @@ My thought was to create a delay with `(Math.floor(Math.random() * 2) + 1 * maxD
 
 ```
 
+<br/>
+
 ---
 
 ### MY OWN PERSONAL CONTRIBUTIONS INCLUDED
@@ -98,11 +106,15 @@ My thought was to create a delay with `(Math.floor(Math.random() * 2) + 1 * maxD
 - [X] creating an animation effect that randomly chooses a color scheme for the blocks.
 - [X] fixing the functionality so it would rerender on window resizeand the additionaly decoration on the pages.
 
+<br/>
+
 ---
 
 ### ATTRIBUTIONS
 
 Project inspired by [Creative Coding: Making Visuals with JavaScript](https://www.domestika.org/en/courses/2729-creative-coding-making-visuals-with-javascript) by [Bruno Imbrizi](https://www.domestika.org/en/bruno_imbrizi)
+
+<br/>
 
 ---
 
