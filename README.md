@@ -42,9 +42,9 @@ To use the app simply click on the ```View Project``` button or visit <a href="h
 
 ### THIS PROJECT DEMONSTRATES...
 
-🆕 Use of Canvas API to draw squares
-
-🆕 use of basic JavaScript principles like loops and conditionals to create a randomized, regenerating pattern.
+- [X] Use of Canvas API to draw squares
+      
+- [X] use of basic JavaScript principles like loops and conditionals to create a randomized, regenerating pattern.
 
 ---
 
